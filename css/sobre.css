@@ -1,0 +1,162 @@
+.top-section {
+  display: flex;
+  height: auto;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.box img {
+ 
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+
+
+
+.assinatura {
+ width: 30%;
+ height:auto;
+} 
+
+
+.text-box .title {
+  padding: 10px;
+  font-size: 32px;
+  max-width: 100%;
+  margin: 20px;
+  padding-left: 0px;
+}
+.section {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 10%;
+}
+
+.section img {
+  max-width: 40%;
+  height: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-box p {
+  padding: 20px;
+  font-size: 16px;
+  max-width: 100%;
+  margin: 20px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.sobreContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-top: 10%;
+}
+.mensagem {
+  width: 75%;
+  font-size: 15px;
+  padding: 20px;
+  color: rgb(51, 51, 51);
+  text-align: justify;
+}
+.sobretexto {
+  width: 80%;
+  font-size: 24px;
+  padding: 20px;
+  text-align: justify;
+  color: #ffa91e;
+}
+.sobretexto2 {
+  width: 80%;
+  font-size: 16px;
+  padding: 20px;
+  text-align: justify;
+ 
+}
+
+.mensagem b{
+  color: #ffa91e;
+}
+
+
+@media screen and (max-width: 768px) {
+  .top-section {
+      flex-direction: column;
+      margin-top: 150px;
+  }
+
+  .content {
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .section img {
+      max-width: 100%;
+      margin-top: 20%;
+  }
+  .assinatura {
+    width: 60%;
+    height:auto;
+   } 
+  .text-box {
+      max-width: 100%;
+      margin: 20px;
+      border-radius: 20px;
+      overflow-y: hidden;
+  }
+  .sobretexto {
+    width: 90%;
+    font-size: 24px;
+    padding: 20px;
+    text-align: left;
+    color: #ffa91e;
+  }
+  .sobretexto2 {
+    width: 80%;
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
+   
+  }
+  .section {
+  flex-direction: column;
+    
+
+  }
+  .top-section {
+    display:none;
+  }
+  .box {
+  flex-direction: column;
+    width: 100%;
+  }
+}
