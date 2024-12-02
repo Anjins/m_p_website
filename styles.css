@@ -63,7 +63,7 @@ body, html {
   flex-direction: column;
 }
 
-.middle-section h2 {
+.middle-section .title {
   font-size: 2.5rem;
   color: #5B683D;
   margin-bottom: 30px;
@@ -135,7 +135,7 @@ form button {
   color: #FFF;
 }
 
-.bottom-section h2 {
+.bottom-section p {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #FAEBD7;
@@ -239,8 +239,8 @@ form button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(176, 109, 234, 0.7);
- display:none
+  background-color: rgba(176, 109, 234, 0.5);
+
   transition: opacity 0.5s;
   z-index: 1;
 }
@@ -264,7 +264,7 @@ form button {
   color: #fff;
   font-size: 30px;
   font-weight: bold;
- display:none
+
   overflow: auto;
   transition: opacity 0.5s;
   z-index: 2;
@@ -287,10 +287,61 @@ font-weight: bold;
   }
 
 
+
+
+  @media (max-width: 1000px) {
+    .top-section .title {
+      font-size: 7rem;
+    }
+
+
+  #countdown {
+    font-size: 2rem;
+  }
+
+  .middle-section p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  form {
+    padding: 20px;
+    width: 90%;
+    max-width: none;
+  }
+
+  .image-links img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .flower-1 {
+   display:none;
+  }
+
+  .flower-2 {
+   display:none;
+  }
+
+  .flower-3 {
+   display:none;
+  }
+
+  .flower-4 {
+   display:none;
+  }
+
+  .flower-5 {
+display:none;
+  }
+
+     
+    }
+  
 /* Responsive designs */
 @media (max-width: 768px) {
   .top-section .title {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   #countdown {
@@ -332,4 +383,13 @@ font-weight: bold;
   .flower-5 {
 display:none;
   }
+
+
 }
+
+@media (max-width: 500px) {
+  .top-section .title {
+    font-size: 5rem;
+  }
+   
+  }
