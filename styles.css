@@ -393,3 +393,29 @@ display:none;
   }
    
   }
+
+
+  .qrcode {
+    max-width: 500px;
+    width: 80%;
+
+    margin: 20px auto;
+    display: block;
+  }
+
+  .textomenor {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .lado-lado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+  }
+
+  .lado {
+width: 45%;
+  }
